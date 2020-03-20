@@ -5,5 +5,6 @@ mydb = mysql.connector.connect(host="localhost",port=3307,user="root",password="
 mycursor = mydb.cursor()
 
 mycursor.execute("select * from telusko.students")
+print("Demo")
 
 print(mycursor.fetchall())
